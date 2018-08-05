@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER padro@cs.upc.edu
-
+/as
 RUN locale-gen en_US.UTF-8 && \
     apt-get update -q && \
     apt-get install -y build-essential automake autoconf libtool wget \
